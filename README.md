@@ -1,3 +1,3 @@
 Webextension - Zeronet Helper
 
-https://addons.mozilla.org/en-US/firefox/addon/zeronet-helper/?src=userprofile
+https://addons.mozilla.org/en-US/firefox/addon/zeronet-helper/
