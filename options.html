@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Zeronet Helper options page</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="pure-min.css" >
+  <style type="text/css">
+      .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+  </style>
+  </head>
+  <body>
+    <div>
+      <h3 class="pure-button" >Zeronet Helper requires following actions</h3>
+      <div class=""></div>
+      <div class="pure-g">
+        <div class="pure-u-1-24"><p>&nbsp;</p></div>
+        <div class="pure-u-22-24"><p>
+            Once following steps are complete addon will start Zeronet when you enter Zeronet URL
+        </p></div>
+        <div class="pure-u-1-24"><p>&nbsp;</p></div>
+    </div>
+      <div class="pure-g">
+          <div class="pure-u-1-24"><p>&nbsp;</p></div>
+          <div class="pure-u-22-24"><p>
+              
+            <table class="pure-table">
+
+            
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div id="download_windows" class="hidden">
+                                    <b>Download</b> and <b>extract</b> Zeronet Bundle from
+                                    <a target="_blank" href="https://github.com/HelloZeroNet/ZeroBundle/raw/master/dist/ZeroBundle-win.zip" >here</a>
+           
+                            </div>
+                            <div id="download_linux" class="hidden">
+                                    <b>Download</b> and <b>extract</b> Zeronet Bundle from
+                                    <a target="_blank" href="https://zeronet.io/" >https://zeronet.io/</a>
+           
+                                </div>
+                                <div id="download_android" class="hidden">
+                                    <b>Download</b> Zeronet application
+                                    <a target="_blank" href="https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id%3Dnet.mkg20001.zeronet%26ddl%3D1%26pcampaignid%3Dweb_ddl_1" >Google Play</a>
+           
+                                </div>
+                      </td>
+                        <td>        
+                            <button class="pure-button" id="zeronet_started_check">V</button>
+                        </td>
+                    </tr>
+                    <tr id="step_2" class="hidden">
+                        <td>2</td>
+                        <td>
+
+                                <div id="script_windows" class="hidden">
+                                        <b>Save</b> <a href="res/Install_znbh.bat" download >this</a>
+                                        <form class="pure-form-message-inline" target="_blank" method="get" action="res/Install_znbh.bat">
+                                            <button class="pure-button" type="submit">▼</button>
+                                         </form>
+                                        and <a href="res/browser_helper.py" download >this</a>
+                                        <form class="pure-form-message-inline" target="_blank" method="get" action="res/browser_helper.py">
+                                            <button class="pure-button" type="submit">▼</button>
+                                         </form>
+                                        script to Zeronet Bundle folder and 
+                                        <b>run</b> <i>Install_znbh.bat</i>
+                                </div>
+                                <div id="script_linux" class="hidden">
+                                        <b>Save</b> <a href="res/Install_znbh.sh" download >this</a>
+                                        <form class="pure-form-message-inline" target="_blank" method="get" action="res/Install_znbh.sh">
+                                            <button class="pure-button" type="submit">▼</button>
+                                         </form>
+                                        and <a href="res/browser_helper.py" download >this</a>
+                                        <form class="pure-form-message-inline" target="_blank" method="get" action="res/browser_helper.py">
+                                            <button class="pure-button" type="submit">▼</button>
+                                         </form>
+                                        script to Zeronet Bundle folder and 
+                                        <b>run</b> <i>Install_znbh.sh</i> (Scripts need to be made executable)
+                                    </div>
+
+                        </td>
+                        <td><button class="pure-button" id="native_messaging_check">V</button></td>
+
+      
+                    </tr>
+
+                </tbody>
+            </table>
+            <p></p>
+            <a target="_blank" style="text-decoration:none;" href="http://127.0.0.1:43110/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D" >
+                <img height="50px" style="vertical-align:middle;" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Zeronet_logo.png"/>
+                Zeronet startpage</a>
+          </p></div>
+          
+          <div class="pure-u-1-24"><p>&nbsp;</p></div>
+      </div>
+      
+      <div>    </div>
+
+    </div>    
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="lib.js" type="text/javascript"></script>
+  <script src="options.js" type="text/javascript"></script>
+  </body>
+</html>
